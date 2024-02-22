@@ -17,6 +17,6 @@ then go to the root directory and do a beautiful:
 ```
 make
 ```
-
+## 
 > [!WARNING]
 > This requires modding your console and installing unofficial apps, so be careful
