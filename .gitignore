@@ -1,4 +1,3 @@
-
 build/
 
 *.ovl
@@ -8,3 +7,5 @@ build/
 *.nacp
 
 *.nro
+
+.vscode/
