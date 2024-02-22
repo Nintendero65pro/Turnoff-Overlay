@@ -34,7 +34,7 @@ public:
         list->addItem(clickableListItem);
 
         //shutdown
-        auto *clickableListItem2 = new tsl::elm::ListItem("Restart", "save or u lose ur vbucks");
+        auto *clickableListItem2 = new tsl::elm::ListItem("Restart", "save or lose ur vbucks");
         clickableListItem2->setClickListener([](u64 keys) {
             if (keys & HidNpadButton_A) {
                 splExit();
@@ -65,6 +65,14 @@ public:
         return false;   // Return true here to signal the inputs have been consumed
     }
 };
+
+/*
+SOMETHING VERY IMPORTANT ABOUT initServices()
+This may seem obvious but i was confused for 2 minutes before i realized this.
+It inits the services when you START atmosphere, not when you enter to the overlay...
+This means you'll need to restart the console for the first use of the services and ALSO when you add new services to the code (obv)-
+This isn't a big deal but in a big overlay developing when u are testing ur code and stuff this will be a little tedious... 😓
+*/
 
 class OverlayTest : public tsl::Overlay {
 public:
