@@ -2,6 +2,8 @@
 
 ![overlay](https://github.com/Nintendero65pro/Turnoff-Overlay/assets/88602322/f45779d5-1987-4be9-af95-be2fce0723be)
 
+> [!IMPORTANT]
+> In order to start using this overlay, restart the console or it wont do anything. 
 
 ## What is this?
 An overlay for Nintendo Switch to shutdown/restart your console, you can install it using [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader) and [tesla menu](https://github.com/WerWolv/Tesla-Menu).
